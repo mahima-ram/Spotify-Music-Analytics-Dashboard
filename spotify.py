@@ -20,9 +20,6 @@ SETUP (same Spotify app as the CLI version):
    This opens a browser tab with the dashboard. The first time, it'll
    also pop a Spotify login/auth window — that's expected.
 
-To host this live (so a recruiter can click a link instead of running
-code locally), Streamlit Community Cloud (share.streamlit.io) is free
-and connects directly to a GitHub repo.
 """
 import os
 from collections import Counter
