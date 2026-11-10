@@ -1,8 +1,12 @@
-# Spotify Listener Insights 🎧
+# Spotify Listener Insights
 
 An interactive music analytics dashboard that transforms Spotify listening data into personalized insights about listening habits, music discovery, and changes in musical preferences over time.
 
 Built with **Python, Streamlit, Spotipy, Pandas, and Plotly**, the application connects to the Spotify Web API to analyze listening behavior across multiple time horizons and generate interpretable listener profiles.
+
+## Dashboard Preview
+
+![Main Dashboard](screenshots/main-dashboard.png)
 
 ## Overview
 
@@ -27,6 +31,23 @@ It also incorporates recently played tracks to provide additional context about 
 - **Listener Classification:** Uses a rule-based classification system to generate personalized listener profiles.
 - **Interactive Visualizations:** Uses Plotly to display listening patterns, artist and track trends, and changes in musical preferences.
 - **Recently Played Analysis:** Incorporates recently played tracks into the listening analysis.
+
+## Explore Your Listening Data
+
+## Artist & Listening Trends
+Explore top artists and the release years of your most-listened-to tracks.
+
+![Listening Analytics](screenshots/listening-analytics.png)
+
+## Top Tracks by Artist
+Explore how individual tracks contribute to your listening preferences through an interactive treemap visualization.
+
+![Artist Treemap](screenshots/artist-treemap.png)
+
+## Top Tracks
+Explore your top 20 tracks with their release years, duration, artist, and album name.
+
+![Top Tracks](screenshots/top-tracks.png)
 
 ## How It Works
 
@@ -113,6 +134,7 @@ Rather than using a machine learning model, the application uses explicitly defi
 Plotly powers the interactive charts, while Streamlit provides the application interface.
 
 The dashboard allows users to explore listening trends, compare artists and tracks, and examine how musical preferences change across different time horizons.
+
 
 ## Technology Stack
 
@@ -213,6 +235,11 @@ A potential future improvement would be to collect user feedback and labeled pro
 
 ## Author
 
-Developed as a personal project to explore API integration, data analytics, feature engineering, and interactive application development.
+**Mahima Ramesh**
+
+Computer Science Student | Interested in Software Engineering, Product Management, Data Analytics, and Product Development
+
+[GitHub](https://github.com/mahima-ram) · [LinkedIn](https://www.linkedin.com/in/mahimaram/)
 
 **Technologies:** Python · Streamlit · Spotipy · Spotify Web API · Pandas · Plotly
+
